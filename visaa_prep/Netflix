@@ -6,9 +6,17 @@ public class Solution {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int notebooks = 10*n;
-        System.out.println(notebooks);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int x = sc.nextInt();
+        if((a+b+c)>x){
+            System.out.println("YES");
+            
+        }else{
+            System.out.println("NO");
+        }
         
+      
     }
 }
