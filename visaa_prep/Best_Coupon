@@ -5,9 +5,14 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
-        int amount = x - 100;
+        int tenPercentOff = (int)(x*0.10);
+        int flatDiscount = 100;
+        int maxDiscount = Math.max(tenPercentOff,flatDiscount);
+        int amount= x - maxDiscount;
         System.out.println(amount);
+        
+        
     }
 }
