@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int notebooks = 10*n;
+        System.out.println(notebooks);
+        
+    }
+}
