@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String vignesh = sc.next();
+        String charan = sc.next();
+        if(vignesh.equals(charan)){
+            System.out.println("NULL");
+        }
+        else if((vignesh.equals("R") && charan.equals("S")) || (vignesh.equals("S") && charan.equals("P")) || (vignesh.equals("P") && (charan.equals("R")))){
+            System.out.println("Vignesh");
+        }else{
+            System.out.println("Charan");
+        }
+        
+        
+    }
+}
