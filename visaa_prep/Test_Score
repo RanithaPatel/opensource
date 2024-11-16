@@ -9,7 +9,7 @@ public class Solution {
         int n = sc.nextInt();
         int x = sc.nextInt();
         int y = sc.nextInt();
-        if(x==y){
+        if(y<=n*x && y%x==0){
             System.out.println("YES");
             
         }else{
